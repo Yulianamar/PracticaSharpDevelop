@@ -57,5 +57,12 @@ namespace Practica
 			double lblNumero2 = Convert.ToDouble(txtNumero2.Text);
 			lblRespueta.Text = "Resultado: " + (lblNumero1 / lblNumero2);
 		}
+		
+		void BtnModuloClick(object sender, EventArgs e)
+		{
+			double lblNumero1 = Convert.ToDouble(txtNumero1.Text);
+			double lblNumero2 = Convert.ToDouble(txtNumero2.Text);
+			lblRespueta.Text = "Resultado: " + (lblNumero1 % lblNumero2);
+		}
 	}
 }

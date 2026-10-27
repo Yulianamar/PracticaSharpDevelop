@@ -45,11 +45,12 @@ namespace Practica
 			this.btnMultiplicar = new System.Windows.Forms.Button();
 			this.btnDividir = new System.Windows.Forms.Button();
 			this.lblRespueta = new System.Windows.Forms.Label();
+			this.btnModulo = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lblNumero1
 			// 
-			this.lblNumero1.Location = new System.Drawing.Point(22, 14);
+			this.lblNumero1.Location = new System.Drawing.Point(6, 11);
 			this.lblNumero1.Name = "lblNumero1";
 			this.lblNumero1.Size = new System.Drawing.Size(100, 23);
 			this.lblNumero1.TabIndex = 0;
@@ -57,7 +58,7 @@ namespace Practica
 			// 
 			// lblNumero2
 			// 
-			this.lblNumero2.Location = new System.Drawing.Point(198, 11);
+			this.lblNumero2.Location = new System.Drawing.Point(136, 11);
 			this.lblNumero2.Name = "lblNumero2";
 			this.lblNumero2.Size = new System.Drawing.Size(100, 23);
 			this.lblNumero2.TabIndex = 1;
@@ -65,21 +66,21 @@ namespace Practica
 			// 
 			// txtNumero1
 			// 
-			this.txtNumero1.Location = new System.Drawing.Point(24, 55);
+			this.txtNumero1.Location = new System.Drawing.Point(6, 37);
 			this.txtNumero1.Name = "txtNumero1";
 			this.txtNumero1.Size = new System.Drawing.Size(100, 20);
 			this.txtNumero1.TabIndex = 2;
 			// 
 			// txtNumero2
 			// 
-			this.txtNumero2.Location = new System.Drawing.Point(198, 55);
+			this.txtNumero2.Location = new System.Drawing.Point(136, 37);
 			this.txtNumero2.Name = "txtNumero2";
 			this.txtNumero2.Size = new System.Drawing.Size(100, 20);
 			this.txtNumero2.TabIndex = 3;
 			// 
 			// btnSuma
 			// 
-			this.btnSuma.Location = new System.Drawing.Point(31, 149);
+			this.btnSuma.Location = new System.Drawing.Point(6, 112);
 			this.btnSuma.Name = "btnSuma";
 			this.btnSuma.Size = new System.Drawing.Size(75, 23);
 			this.btnSuma.TabIndex = 4;
@@ -89,7 +90,7 @@ namespace Practica
 			// 
 			// btnResta
 			// 
-			this.btnResta.Location = new System.Drawing.Point(236, 149);
+			this.btnResta.Location = new System.Drawing.Point(161, 112);
 			this.btnResta.Name = "btnResta";
 			this.btnResta.Size = new System.Drawing.Size(75, 23);
 			this.btnResta.TabIndex = 5;
@@ -99,7 +100,7 @@ namespace Practica
 			// 
 			// btnMultiplicar
 			// 
-			this.btnMultiplicar.Location = new System.Drawing.Point(31, 218);
+			this.btnMultiplicar.Location = new System.Drawing.Point(6, 180);
 			this.btnMultiplicar.Name = "btnMultiplicar";
 			this.btnMultiplicar.Size = new System.Drawing.Size(75, 23);
 			this.btnMultiplicar.TabIndex = 6;
@@ -109,7 +110,7 @@ namespace Practica
 			// 
 			// btnDividir
 			// 
-			this.btnDividir.Location = new System.Drawing.Point(236, 218);
+			this.btnDividir.Location = new System.Drawing.Point(161, 180);
 			this.btnDividir.Name = "btnDividir";
 			this.btnDividir.Size = new System.Drawing.Size(75, 23);
 			this.btnDividir.TabIndex = 7;
@@ -119,16 +120,27 @@ namespace Practica
 			// 
 			// lblRespueta
 			// 
-			this.lblRespueta.Location = new System.Drawing.Point(102, 284);
+			this.lblRespueta.Location = new System.Drawing.Point(66, 318);
 			this.lblRespueta.Name = "lblRespueta";
 			this.lblRespueta.Size = new System.Drawing.Size(100, 23);
 			this.lblRespueta.TabIndex = 8;
+			// 
+			// btnModulo
+			// 
+			this.btnModulo.Location = new System.Drawing.Point(80, 231);
+			this.btnModulo.Name = "btnModulo";
+			this.btnModulo.Size = new System.Drawing.Size(75, 23);
+			this.btnModulo.TabIndex = 9;
+			this.btnModulo.Text = "Modulo";
+			this.btnModulo.UseVisualStyleBackColor = true;
+			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(413, 332);
+			this.ClientSize = new System.Drawing.Size(247, 359);
+			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.lblRespueta);
 			this.Controls.Add(this.btnDividir);
 			this.Controls.Add(this.btnMultiplicar);
@@ -143,6 +155,7 @@ namespace Practica
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnModulo;
 		private System.Windows.Forms.Label lblRespueta;
 		private System.Windows.Forms.Button btnDividir;
 		private System.Windows.Forms.Button btnMultiplicar;
