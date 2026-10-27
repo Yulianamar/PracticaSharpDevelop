@@ -46,6 +46,7 @@ namespace Practica
 			this.btnDividir = new System.Windows.Forms.Button();
 			this.lblRespueta = new System.Windows.Forms.Label();
 			this.btnModulo = new System.Windows.Forms.Button();
+			this.btnForm = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lblNumero1
@@ -127,7 +128,7 @@ namespace Practica
 			// 
 			// btnModulo
 			// 
-			this.btnModulo.Location = new System.Drawing.Point(80, 231);
+			this.btnModulo.Location = new System.Drawing.Point(6, 235);
 			this.btnModulo.Name = "btnModulo";
 			this.btnModulo.Size = new System.Drawing.Size(75, 23);
 			this.btnModulo.TabIndex = 9;
@@ -135,11 +136,22 @@ namespace Practica
 			this.btnModulo.UseVisualStyleBackColor = true;
 			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
 			// 
+			// btnForm
+			// 
+			this.btnForm.Location = new System.Drawing.Point(161, 235);
+			this.btnForm.Name = "btnForm";
+			this.btnForm.Size = new System.Drawing.Size(75, 35);
+			this.btnForm.TabIndex = 10;
+			this.btnForm.Text = "Formula General";
+			this.btnForm.UseVisualStyleBackColor = true;
+			this.btnForm.Click += new System.EventHandler(this.BtnFormClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(247, 359);
+			this.Controls.Add(this.btnForm);
 			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.lblRespueta);
 			this.Controls.Add(this.btnDividir);
@@ -155,6 +167,7 @@ namespace Practica
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnForm;
 		private System.Windows.Forms.Button btnModulo;
 		private System.Windows.Forms.Label lblRespueta;
 		private System.Windows.Forms.Button btnDividir;
