@@ -36,6 +36,7 @@ namespace Practica
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.lblA = new System.Windows.Forms.Label();
 			this.lblB = new System.Windows.Forms.Label();
 			this.lblC = new System.Windows.Forms.Label();
@@ -116,6 +117,8 @@ namespace Practica
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(358, 288);
 			this.Controls.Add(this.btnCalcular);
 			this.Controls.Add(this.lblRespuesta);

@@ -51,106 +51,140 @@ namespace Practica
 			// 
 			// lblNumero1
 			// 
-			this.lblNumero1.Location = new System.Drawing.Point(6, 11);
+			this.lblNumero1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+			this.lblNumero1.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblNumero1.Location = new System.Drawing.Point(8, 13);
+			this.lblNumero1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblNumero1.Name = "lblNumero1";
-			this.lblNumero1.Size = new System.Drawing.Size(100, 23);
+			this.lblNumero1.Size = new System.Drawing.Size(133, 27);
 			this.lblNumero1.TabIndex = 0;
 			this.lblNumero1.Text = "Numero 1:";
 			// 
 			// lblNumero2
 			// 
-			this.lblNumero2.Location = new System.Drawing.Point(136, 11);
+			this.lblNumero2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+			this.lblNumero2.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblNumero2.Location = new System.Drawing.Point(181, 13);
+			this.lblNumero2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblNumero2.Name = "lblNumero2";
-			this.lblNumero2.Size = new System.Drawing.Size(100, 23);
+			this.lblNumero2.Size = new System.Drawing.Size(133, 27);
 			this.lblNumero2.TabIndex = 1;
 			this.lblNumero2.Text = "Numero 2:";
 			// 
 			// txtNumero1
 			// 
-			this.txtNumero1.Location = new System.Drawing.Point(6, 37);
+			this.txtNumero1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+			this.txtNumero1.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtNumero1.Location = new System.Drawing.Point(8, 43);
+			this.txtNumero1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtNumero1.Name = "txtNumero1";
-			this.txtNumero1.Size = new System.Drawing.Size(100, 20);
+			this.txtNumero1.Size = new System.Drawing.Size(132, 20);
 			this.txtNumero1.TabIndex = 2;
 			// 
 			// txtNumero2
 			// 
-			this.txtNumero2.Location = new System.Drawing.Point(136, 37);
+			this.txtNumero2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+			this.txtNumero2.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtNumero2.Location = new System.Drawing.Point(181, 43);
+			this.txtNumero2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtNumero2.Name = "txtNumero2";
-			this.txtNumero2.Size = new System.Drawing.Size(100, 20);
+			this.txtNumero2.Size = new System.Drawing.Size(132, 20);
 			this.txtNumero2.TabIndex = 3;
 			// 
 			// btnSuma
 			// 
-			this.btnSuma.Location = new System.Drawing.Point(6, 112);
+			this.btnSuma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.btnSuma.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSuma.Location = new System.Drawing.Point(8, 129);
+			this.btnSuma.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.btnSuma.Name = "btnSuma";
-			this.btnSuma.Size = new System.Drawing.Size(75, 23);
+			this.btnSuma.Size = new System.Drawing.Size(100, 27);
 			this.btnSuma.TabIndex = 4;
 			this.btnSuma.Text = "Suma";
-			this.btnSuma.UseVisualStyleBackColor = true;
+			this.btnSuma.UseVisualStyleBackColor = false;
 			this.btnSuma.Click += new System.EventHandler(this.BtnSumaClick);
 			// 
 			// btnResta
 			// 
-			this.btnResta.Location = new System.Drawing.Point(161, 112);
+			this.btnResta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.btnResta.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnResta.Location = new System.Drawing.Point(215, 129);
+			this.btnResta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.btnResta.Name = "btnResta";
-			this.btnResta.Size = new System.Drawing.Size(75, 23);
+			this.btnResta.Size = new System.Drawing.Size(100, 27);
 			this.btnResta.TabIndex = 5;
 			this.btnResta.Text = "Resta";
-			this.btnResta.UseVisualStyleBackColor = true;
+			this.btnResta.UseVisualStyleBackColor = false;
 			this.btnResta.Click += new System.EventHandler(this.BtnRestaClick);
 			// 
 			// btnMultiplicar
 			// 
-			this.btnMultiplicar.Location = new System.Drawing.Point(6, 180);
+			this.btnMultiplicar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.btnMultiplicar.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnMultiplicar.Location = new System.Drawing.Point(8, 208);
+			this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.btnMultiplicar.Name = "btnMultiplicar";
-			this.btnMultiplicar.Size = new System.Drawing.Size(75, 23);
+			this.btnMultiplicar.Size = new System.Drawing.Size(100, 27);
 			this.btnMultiplicar.TabIndex = 6;
 			this.btnMultiplicar.Text = "Multiplicar";
-			this.btnMultiplicar.UseVisualStyleBackColor = true;
+			this.btnMultiplicar.UseVisualStyleBackColor = false;
 			this.btnMultiplicar.Click += new System.EventHandler(this.BtnMultiplicarClick);
 			// 
 			// btnDividir
 			// 
-			this.btnDividir.Location = new System.Drawing.Point(161, 180);
+			this.btnDividir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.btnDividir.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnDividir.Location = new System.Drawing.Point(215, 208);
+			this.btnDividir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.btnDividir.Name = "btnDividir";
-			this.btnDividir.Size = new System.Drawing.Size(75, 23);
+			this.btnDividir.Size = new System.Drawing.Size(100, 27);
 			this.btnDividir.TabIndex = 7;
 			this.btnDividir.Text = "Dividir";
-			this.btnDividir.UseVisualStyleBackColor = true;
+			this.btnDividir.UseVisualStyleBackColor = false;
 			this.btnDividir.Click += new System.EventHandler(this.BtnDividirClick);
 			// 
 			// lblRespueta
 			// 
-			this.lblRespueta.Location = new System.Drawing.Point(66, 318);
+			this.lblRespueta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+			this.lblRespueta.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblRespueta.Location = new System.Drawing.Point(88, 367);
+			this.lblRespueta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblRespueta.Name = "lblRespueta";
-			this.lblRespueta.Size = new System.Drawing.Size(100, 23);
+			this.lblRespueta.Size = new System.Drawing.Size(133, 27);
 			this.lblRespueta.TabIndex = 8;
 			// 
 			// btnModulo
 			// 
-			this.btnModulo.Location = new System.Drawing.Point(6, 235);
+			this.btnModulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.btnModulo.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnModulo.Location = new System.Drawing.Point(8, 271);
+			this.btnModulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.btnModulo.Name = "btnModulo";
-			this.btnModulo.Size = new System.Drawing.Size(75, 23);
+			this.btnModulo.Size = new System.Drawing.Size(100, 27);
 			this.btnModulo.TabIndex = 9;
 			this.btnModulo.Text = "Modulo";
-			this.btnModulo.UseVisualStyleBackColor = true;
+			this.btnModulo.UseVisualStyleBackColor = false;
 			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
 			// 
 			// btnForm
 			// 
-			this.btnForm.Location = new System.Drawing.Point(161, 235);
+			this.btnForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.btnForm.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnForm.Location = new System.Drawing.Point(215, 271);
+			this.btnForm.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.btnForm.Name = "btnForm";
-			this.btnForm.Size = new System.Drawing.Size(75, 35);
+			this.btnForm.Size = new System.Drawing.Size(100, 40);
 			this.btnForm.TabIndex = 10;
 			this.btnForm.Text = "Formula General";
-			this.btnForm.UseVisualStyleBackColor = true;
+			this.btnForm.UseVisualStyleBackColor = false;
 			this.btnForm.Click += new System.EventHandler(this.BtnFormClick);
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(247, 359);
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+			this.ClientSize = new System.Drawing.Size(329, 414);
 			this.Controls.Add(this.btnForm);
 			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.lblRespueta);
@@ -162,6 +196,8 @@ namespace Practica
 			this.Controls.Add(this.txtNumero1);
 			this.Controls.Add(this.lblNumero2);
 			this.Controls.Add(this.lblNumero1);
+			this.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.Name = "MainForm";
 			this.Text = "Practica";
 			this.ResumeLayout(false);
